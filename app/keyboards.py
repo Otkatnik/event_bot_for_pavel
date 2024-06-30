@@ -37,6 +37,7 @@ kb_categories = InlineKeyboardMarkup(
         [InlineKeyboardButton(text='11. Клубы по Спортивным Бальным Танцам', callback_data='clubs')],
         [InlineKeyboardButton(text='12. Обсуждения(ФОРУМ), Полезности; Музыка', callback_data='forums')],
         [InlineKeyboardButton(text='К выбору региона', callback_data='regions')],
+        [InlineKeyboardButton(text='обратная связь', callback_data='feedback')],
     ]
 )
 

@@ -7,7 +7,7 @@ from app.handlers import router
 from config import bot  # импортируем bot из config.py
 from aiogram.fsm.storage.memory import MemoryStorage
 
-print(2)
+
 load_dotenv()
 api_key = os.getenv('API_KEY')
 admin_chat_id = os.getenv('CHAT_ID_ADMIN')
